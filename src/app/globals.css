@@ -1,0 +1,32 @@
+html{
+    margin:0;
+    background-color: #ddddee;
+}
+body{
+    margin: 0;
+}
+section{
+    overflow: hidden;
+    margin: auto;
+    max-width: 1024px;
+    background-color: #bbbbcc;
+    width: 90%;
+    height: 8vh;
+    display: flex;
+    align-items:normal;
+    border-radius: 0 0 25px 25px;
+}
+section div{
+    text-align: center;
+    flex: 1;
+    background: #5555556f;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    height: auto;
+    display: inline;
+    vertical-align: middle;
+}
